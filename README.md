@@ -1,72 +1,77 @@
-# MHH Housing Society Management System
-=====================================
+<h1 align="center">🏘️ Housing Society Management System</h1>
 
-## Overview
---------
+<p align="center">
+  <strong>Full-stack MERN platform for managing residents, tenants, properties and payments in a housing society</strong>
+</p>
 
-MHH is a comprehensive housing society management system built on the MERN (MongoDB, Express, React, Node.js) stack. The system provides a user-friendly interface for residents, tenants, and administrators to manage various aspects of housing society management.
+<p align="center">
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black"/>
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white"/>
+</p>
+
+---
+
+## About
+
+A comprehensive **Housing Society Management System** built on the MERN stack. The platform provides role-based portals for administrators, residents and tenants to manage properties, payments and society operations from a single interface.
 
 ## Features
---------
 
-### Authentication
+- **Admin Dashboard** — Centralised control for users, properties and payments
+- **Property Management** — Add, update and remove property listings
+- **Buy and Rent** — Online property purchase and rental workflows
+- **Payment System** — Monthly dues, utility bills and fee tracking
+- **Property Search** — Filter by location, type, price and description
+- **Real-time Notifications** — Push alerts for important society updates
+- **Authentication** — Secure login and signup for all user roles
 
-* **Login**: Secure access for authorized users
-* **Signup**: Easy registration for new users
+## Tech Stack
 
-### Admin Control Panel
+| Layer | Technology |
+|---|---|
+| Frontend | React |
+| Backend | Node.js, Express.js |
+| Database | MongoDB |
+| Stack | MERN |
 
-* **Centralized Dashboard**: View users and properties
-* **User Management**: Create, edit, and delete user accounts
-* **Property Management**: Add, update, and remove property listings
-* **Payment Management**: Process and track payments
+## Project Structure
 
-### Property Search Engine
-
-* **Search Properties**: Find properties by location, type, price, and description
-
-### Property Management
-
-* **Purchase Properties**: Buy properties online
-* **Rent Properties**: Rent properties online
-* **Property Listings**: Manage property listings for residents and tenants
-
-### Realtime Notification System
-
-* **Push Notifications**: Receive important updates and alerts in real-time through the admin
-
-### Payment Management
-
-* **Monthly Dues**: Pay rent, utility bills, and other monthly fees online
-
-## Technical Details
----------------
-
-* **Built on**: MERN stack (MongoDB, Express, React, Node.js)
-* **Frontend**: React
-* **Backend**: Node.js and Express
-* **Database**: MongoDB
+```
+backend/   Node.js + Express API
+hsms/      React frontend application
+```
 
 ## Getting Started
----------------
 
-1. **Clone the repository**
-2. **Install dependencies**: `npm install`
-3. **Start the application**: `npm start`
+### Prerequisites
+- Node.js 18+
+- MongoDB (local or Atlas)
 
-## Contributing
-----------
+### Installation
 
-* **Bug Reports**: Report issues and bugs
-* **Feature Requests**: Request new features
-* **Pull Requests**: Contribute code changes
+```bash
+git clone https://github.com/HamzaSaeed31/Housing-Society-Management.git
+cd Housing-Society-Management
 
-## License
--------
+# Install backend dependencies
+cd backend
+npm install
 
-* **MIT License**: MHH is licensed under the MIT License
+# Install frontend dependencies
+cd ../hsms
+npm install
+```
 
-## Contact
--------
+### Running
 
-* **Email**: muhammad.mobeen100@gmail.com for any questions or concerns
+```bash
+# Start backend (from /backend)
+npm start
+
+# Start frontend (from /hsms)
+npm start
+```
+
+Open `http://localhost:3000` in your browser.
